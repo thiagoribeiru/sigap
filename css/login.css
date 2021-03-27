@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'MyriadPro';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/MyriadPro-Regular.otf') format('opentype');
+}
+@font-face {
+	font-family: 'MyriadPro';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/MyriadPro-Bold.otf') format('opentype');
+}
+body {
+	background-color: #DBDBDB;
+	margin: 0px;
+	font-family: "MyriadPro";
+}
+input:focus {
+	outline-style:none;
+	box-shadow:none;
+}
+#container {
+	background-color: #E3E3E3;
+	width: 421px;
+	height: 480px;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	margin-top: -240px;
+}
+#logo {
+	margin-top: 50px;
+	margin-left: 155px;
+	margin-bottom: 11px;
+}
+#antInput {
+	margin-left: 47px;
+	width: 324px;
+}
+.input {
+	background: #FFFFFF;
+	width: 324px;
+	height: 35px;
+	border-radius: 3px;
+	margin-top: 14px;
+	margin-bottom: 2px;
+}
+.input div {
+	width: 40px;
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+}
+.input input {
+	border:none;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #575759;
+}
+#erroSenha {
+	display: none;
+	width: 324px;
+	font-size: 12px;
+	color: #FF0000; 
+}
+#esqueceuSenha {
+	display: block;
+	width: 324px;
+	text-align: right;
+	font-size: 12px;
+}
+#esqueceuSenha a {
+	text-decoration: none;
+	color: #575759;
+}
+#botaoLogin {
+	width: 174px;
+	height: 36px;
+	background: #575759;
+	color: #FFFFFF;
+	margin-top: 10px;
+	position: relative;
+	left: 50%;
+	margin-left: -87px;
+}
+#botaoLogin span {
+	font-size: 18px;
+	display: block;
+	width: 50px;
+	position: relative;
+	text-align: center;
+	left: 50%;
+	margin-left: -25px;
+	padding-top: 6px;
+}

@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'MyriadPro';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/MyriadPro-Regular.otf') format('opentype');
+}
+body {
+	background-color: #DBDBDB;
+	margin: 0px;
+	font-family: "MyriadPro";
+}
+input:focus {
+	outline-style:none;
+	box-shadow:none;
+}
